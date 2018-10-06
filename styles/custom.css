@@ -12,15 +12,23 @@
       ============================================== */
 
        /*border: solid 1px green;*/
-       .center{margin:auto;}
+   .movie{display: flex
 
-       .arrow{
+}   
+
+       h1{ font-size: 14pt;
+        font-style: bold}
+       h2{ font-size: 11pt;}
+       p{ font-size: 8pt;}
+    
+     
+       .imgarrow{
            height: 10px;
             width: auto;
+            
         }
-        .btn{
-            padding: 0;
-        }     
+        
+       
   
    /* MEDIA QUERIES
    *********************************************/
@@ -30,6 +38,8 @@
    
    // Small devices (landscape phones, 576px and up)
    @media (min-width: 576px) { ... }
+
+   .movie{}
    
    // Medium devices (tablets, 768px and up)
    @media (min-width: 768px) { ... }

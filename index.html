@@ -16,50 +16,98 @@
 <body>
 
     <!-- head --> 
-    <div class="container-fluid">
-     <p>Favoriete films + achtergrond foto</p>
-    </div>
+    <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+              <h1 class="display-4">Favoriete films</h1>
+             
+            </div>
+          </div>
    
     <!-- body -->
     <div class="container">
 
-    <!-- film 1 -->
-        <div class="card" style="width: 15rem;">
-                <img class="card-img-top" src="images/geisha.jpg" alt="Card image cap">
-                <div class="card-img-top btn-group">
-                   
-                        <p>
-                            <div class="center">
-                                <a class="btn btn-light " data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"><img class="arrow" src="images/arrow.png"></a> 
-                                
-                            </div>
-                        </p>
-                              <div class="collapse" id="collapseExample">
+    <div class="movie">
+        <div class="row">
+            <div class="col-xm-12 sm-6 ">
+                
+<!-- film 1 -->
+                <div class="card" style="width: 18rem; ">
+                        <img class="card-img-top" src="images/geisha.jpg" alt="Card image cap">
+                               
+                         <div class="card-img-top btn-group">
                                 <p>
-                                 <div class="card card-body">
-                                    <h1>Memoires of a Geisha (2005)</h1>
-                                    <h2>Regisseur:</h2>  <p>Rob Marshall</p>
-                                    <h2>Acteurs:</h2>  <p>Ziyin Zhang, Ken Watanabe, Michelle Yeoh</p>
-                                    <h2>Korte inhoud: </h2>
-                                        <p>In the 1920s, 9-year-old Chiyo gets sold to a geisha house.
-                                        There, she is forced into servitude, receiving nothing in return until the house's ruling hierarchy determines if she is of high enough quality to service the clientele -- men who visit and pay for conversation, dance and song. 
-                                        After rigorous years of training, Chiyo becomes Sayuri, a geisha of incredible beauty and influence. 
-                                        Life is good for Sayuri, but World War II is about to disrupt the peace.
-                                    </p>                                
-                                </div>   
-                                </p>
-                                
-                                    <div class="card-body">
-                                        <a href="#" class="btn btn-light btn-outline-info btn-block" >Koop</a>
+                                    <div class="arrow ">
+                                        <a type="button" class= "position-absolute  btn btn-light btn-block " data-toggle="collapse" href="#collapeFilm1" role="button" aria-expanded="false" aria-controls="collapeFilm1">   <img class="imgarrow" src="images/arrow.png">   </a>   
                                     </div>
-                              </div>
-                
-                </div>
-                 <!-- bottom of the card -->
-                
-                
+                                </p>  
+                                
+                                    <div class="collapse" id="collapeFilm1">
+                                        <p>
+
+                                        <div class="card card-body">
+                                            <h1>Memoires of a Geisha (2005)</h1>
+                                            <h2>Regisseur:</h2>  <p>Rob Marshall</p>
+                                            <h2>Acteurs:</h2>  <p>Ziyin Zhang, Ken Watanabe, Michelle Yeoh</p>
+                                            <h2>Korte inhoud: </h2>
+                                                <p>In the 1920s, 9-year-old Chiyo gets sold to a geisha house.
+                                                There, she is forced into servitude, receiving nothing in return until the house's ruling hierarchy determines if she is of high enough quality to service the clientele -- men who visit and pay for conversation, dance and song. 
+                                                After rigorous years of training, Chiyo becomes Sayuri, a geisha of incredible beauty and influence. 
+                                                Life is good for Sayuri, but World War II is about to disrupt the peace.
+                                            </p>                                
+                                        </div>   
+
+                                        </p>
+                                        
+                                            <div class="card-body">
+                                                <a href="#" class="btn btn-light btn-outline-info btn-block" >Koop</a>
+                                            </div>
+                                    </div>
+                        
+                        </div>
+                       
+                </div> 
+  <!-- einde film 1 -->
+
+<!-- film 2 -->
+                <div class="card" style="width: 18rem; ">
+                        <img class="card-img-top" src="images/geisha.jpg" alt="Card image cap">
+                        <div class="card-img-top btn-group">
+                        
+                                <p>
+                                    <div class="arrow ">
+                                        <a type="button" class= "position-absolute  btn btn-light btn-block " data-toggle="collapse" href="#collapseFilm2" role="button" aria-expanded="false" aria-controls="collapsefilm2">   <img class="imgarrow" src="images/arrow.png">   </a>   
+                                    </div>
+                                </p>
+                                    <div class="collapse" id="collapseFilm2">
+                                        <p>
+
+                                        <div class="card card-body">
+                                            <h1>Memoires of a Geisha (2005)</h1>
+                                            <h2>Regisseur:</h2>  <p>Rob Marshall</p>
+                                            <h2>Acteurs:</h2>  <p>Ziyin Zhang, Ken Watanabe, Michelle Yeoh</p>
+                                            <h2>Korte inhoud: </h2>
+                                                <p>In the 1920s, 9-year-old Chiyo gets sold to a geisha house.
+                                                There, she is forced into servitude, receiving nothing in return until the house's ruling hierarchy determines if she is of high enough quality to service the clientele -- men who visit and pay for conversation, dance and song. 
+                                                After rigorous years of training, Chiyo becomes Sayuri, a geisha of incredible beauty and influence. 
+                                                Life is good for Sayuri, but World War II is about to disrupt the peace.
+                                            </p>                                
+                                        </div>   
+
+                                        </p>
+                                        
+                                            <div class="card-body">
+                                                <a href="#" class="btn btn-light btn-outline-info btn-block" >Koop</a>
+                                            </div>
+                                    </div>
+                        
+                        </div>
+                    
+                </div> 
+<!-- einde film 2 -->
             </div>
-        <!-- einde film 1 -->
+        </div>
+    </div>
+ 
 
        
     </div>
@@ -68,6 +116,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
 </body>
 
 </html>
