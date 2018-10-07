@@ -44,22 +44,15 @@
      }
         
     .my-footer{ 
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;   
-        padding-right: 60px;
-        padding left: 60px
+        padding-top: 2%;
             
     }
 
-    
+    .imgartevelde{
+        width: 80px;
+    }
 
-  .imgartevelde{
-    margin-left: 15%;
-      width: 30%;
-      height: auto;
-  }
-  
+
   
    /* MEDIA QUERIES
    *********************************************/
