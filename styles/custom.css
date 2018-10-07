@@ -12,41 +12,63 @@
       ============================================== */
 
        /*border: solid 1px green;*/
-   .movie{display: flex
 
-}   
 
-       h1{ font-size: 14pt;
-        font-style: bold}
-       h2{ font-size: 11pt;}
-       p{ font-size: 8pt;}
+       
+   .movie{
+       display: flex
+
+    }   
+
+    h1{ 
+        font-size: 14pt;
+        font-style: bold;
+    }
+    
+    
+    h2{ 
+        font-size: 11pt;
+    
+    }
+    
+    p{
+         font-size: 8pt;
+    
+    }
     
      
-       .imgarrow{
-           height: 10px;
-            width: auto;
+    .imgarrow{
+        height: 10px;
+         width: auto;
             
-        }
+     }
         
        
   
    /* MEDIA QUERIES
    *********************************************/
-   
-   // Extra small devices (portrait phones, less than 576px)
-   // No media query for `xs` since this is the default in Bootstrap
-   
-   // Small devices (landscape phones, 576px and up)
-   @media (min-width: 576px) { ... }
 
-   .movie{}
    
-   // Medium devices (tablets, 768px and up)
-   @media (min-width: 768px) { ... }
+   /* Extra small devices (portrait phones, less than 576px)
+   // No media query for `xs` since this is the default in Bootstrap*/
+
    
-   // Large devices (desktops, 992px and up)
-   @media (min-width: 992px) { ... }
+   /* Small devices (landscape phones, 576px and up)*/
+   @media (min-width: 576px) {
+        .container{ width: 100%} 
+    }
+
+        
+
+   /* Medium devices (tablets, 768px and up)*/
+   @media (min-width: 768px) {  }
+
    
-   // Extra large devices (large desktops, 1200px and up)
-   @media (min-width: 1200px) { ... }
+   /* Large devices (desktops, 992px and up)*/
+   @media (min-width: 992px) {  }
+
+   
+   /* Extra large devices (large desktops, 1200px and up)*/
+   @media (min-width: 1200px) {  }
+
  
