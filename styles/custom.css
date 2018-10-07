@@ -14,7 +14,7 @@
        /*border: solid 1px green;*/
 
 
-       
+
    .movie{
        display: flex
 
@@ -43,7 +43,10 @@
             
      }
         
-       
+    .my-jumbotron{
+        align-content: center;
+    }
+   
   
    /* MEDIA QUERIES
    *********************************************/
@@ -55,7 +58,7 @@
    
    /* Small devices (landscape phones, 576px and up)*/
    @media (min-width: 576px) {
-        .container{ width: 100%} 
+       
     }
 
         
